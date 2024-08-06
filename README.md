@@ -1,17 +1,72 @@
 # imageGenerator
 
 
+## Description:
+
+The Image Generator project is a versatile application that allows users to create, store, and manage digital images tied to user accounts. This program provides features for drawing images on a pixel board, storing account information, and converting image data from PPM to PNG format. It also supports account management, including creating and modifying user profiles.
+
 ## Running the Program
 
-In order to run this program, you need to use the given Makefile by simply typing "make" into the terminal. From there, you need to make sure you are running on an external lab machine using the: ssh stolafusername@rns202-<InsertNumber>.cs.stolaf.edu command. Then nagivate to the SegFault directory and run /usr/local/cs/cs251/bridge.py file.
+To run this program, follow the steps below:
 
-## The Program
-The program is able to create accounts, store account information, retrieve it, create images using the draw function, store the image data, convert image data from ppm to png, traverse and write to text files, create and change user information and display it all properly in the yaml files.
+1. Compile with Makefile:
 
-## Functionality
-With this program you are able to create images through drawing them on a square pixel board and save them and then view them once you are finished as they are tied to your account. You can change your password, customize your user profile, view your saved images, title your images, and create accounts.
+    I) Open the terminal and navigate to the project directory.
+    II)Compile the program by typing:
+
+       make
+   
+2. Connect to the Lab Machine:
+
+    Use the following command to SSH into the external lab machine:
+
+        ssh stolafusername@rns202-.cs.stolaf.edu
+   
+3. Navigate to the Project Directory:
+
+    Go to the SegFault directory.
+   
+4. Run the Program:
+
+    Execute the bridge file by running:
+
+        /usr/local/cs/cs251/bridge.py
+
+## Features
+
+Account Management:
+
+- Create new user accounts.
+- Store and retrieve account information securely.
+- Customize user profiles, including passwords and personal information.
+  
+Image Creation & Storage:
+
+- Draw images on a square pixel board.
+- Save images and tie them to user accounts for future retrieval.
+- Convert image data from PPM to PNG format.
+  
+Data Management:
+
+- Traverse and write data to text files.
+- Manage image metadata and user profiles.
+- Display stored information in YAML files for easy reading.
+  
+User Interaction:
+
+- View saved images tied to your account.
+- Title images for easy identification and management.
 
 ## Potential Errors
-The only potential error that you can encouter is with image data storage, where it won't index properly. While it works properly on some computers, when pushed and compiled on other computers, it would index the images wrong, resulting in the misreading of image information when returning to view images. 
 
-We have all pulled and pushed and are all up to date, but the inconsistancy persists with no clear pathway on how to solve it. In order to manually fix it, you need to go into your actual account txt file in Accounts/ and move the image ids to after the user information line with the date, with a space and a newline in between each image.
+### Image Data Storage Error:
+- The program may incorrectly index image data on some systems, leading to misreading when viewing saved images.
+- This inconsistency appears during compilation on different machines and may cause issues with image retrieval.
+  
+### Manual Fix:
+To manually correct image data indexing:
+
+- Navigate to the Accounts/ directory.
+- Open the user account text file corresponding to your profile.
+- Adjust the image IDs so they appear after the user information line (with the date).
+- Ensure there is a space and a newline between each image entry.
