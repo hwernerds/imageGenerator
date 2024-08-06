@@ -1,4 +1,4 @@
-# SegFault
+# imageGenerator
 
 
 ## Running the Program
@@ -10,8 +10,6 @@ The program is able to create accounts, store account information, retrieve it, 
 
 ## Functionality
 With this program you are able to create images through drawing them on a square pixel board and save them and then view them once you are finished as they are tied to your account. You can change your password, customize your user profile, view your saved images, title your images, and create accounts.
-
-The only parts of the program that have not been implimented are the Searching, Generating, and browsing of images. 
 
 ## Potential Errors
 The only potential error that you can encouter is with image data storage, where it won't index properly. While it works properly on some computers, when pushed and compiled on other computers, it would index the images wrong, resulting in the misreading of image information when returning to view images. 
