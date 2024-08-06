@@ -1,0 +1,106 @@
+- View:
+    style:
+      width: 320
+      height: 480
+      backgroundColor: black
+      justifyContent: flex-start
+      flexDirection: column
+    children:
+      - View:
+          style:
+            width: 320
+            height: 480
+            borderTopLeftRadius: 30
+            borderTopRightRadius: 30
+            borderBottomRightRadius: 30
+            borderBottomLeftRadius: 30
+            borderLeftWidth: 3
+            borderRightWidth: 3
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: azure
+            transform: [{translateX: 0},  {rotate: 0deg}]
+      - View:
+          style:
+            width: 250
+            height: 480
+            backgroundColor: transparent
+            transform: [{translateX: 40}, {translateY: 110}, {rotate: 0deg}]
+            position: absolute
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 30
+                index: 0
+         
+      - View:
+          style:
+            width: 110
+            height: 40
+            borderTopLeftRadius: 0
+            borderTopRightRadius: 15
+            borderBottomRightRadius: 15
+            borderBottomLeftRadius: 0
+            borderLeftWidth:
+            borderRightWidth: 3
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: peachpuff
+            transform: [{translateX: 160}, {translateY: 200},  {rotate: 0deg}]
+            position: absolute
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 25
+                  transform: [{translateX: 0}, {translateY: 0},  {rotate: 0deg}]
+                index: 30
+            - Button:
+               id: button_1
+               style:
+                  width: 110
+                  height: 40
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 15
+                  borderBottomRightRadius: 15
+                  borderBottomLeftRadius: 0
+                  backgroundColor: transparent
+                  transform: [{translateX: 0}, {translateY: -32},  {rotate: 0deg}]
+               on_touch:
+                  backgroundColor: rgb(155,118,85)
+      - View:
+          style:
+            width: 110
+            height: 40
+            borderTopLeftRadius: 15
+            borderTopRightRadius: 0
+            borderBottomRightRadius: 0
+            borderBottomLeftRadius: 15
+            borderLeftWidth: 3
+            borderRightWidth: 3
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: oldlace
+            transform: [{translateX: 50},  {translateY: 200}, {rotate: 0deg}]
+            position: absolute
+          children:
+            - Text:
+                style:
+                  color: black
+
+                  fontSize: 25
+                index: 40
+            - Button:
+               id: button_1
+               style:
+                  width: 110
+                  height: 40
+                  borderTopLeftRadius: 15
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 15
+                  backgroundColor: transparent
+                  transform: [{translateX: -4}, {translateY: -32},  {rotate: 0deg}]
+               on_touch:
+                  backgroundColor: rgb(153, 145, 130)

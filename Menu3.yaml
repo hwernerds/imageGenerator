@@ -1,0 +1,275 @@
+- View:
+    style:
+      width: 320
+      height: 480
+      backgroundColor: black
+      justifyContent: flex-start
+      flexDirection: column
+    children:
+      - View:
+          style:
+            width: 320
+            height: 480
+            borderTopLeftRadius: 30
+            borderTopRightRadius: 30
+            borderBottomRightRadius: 30
+            borderBottomLeftRadius: 30
+            borderLeftWidth: 3
+            borderRightWidth: 3
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: {BColor}
+            transform: [{translateX: 0},  {rotate: 0deg}]
+      - View:
+          style:
+            width: 100%
+            height: 30
+            borderTopLeftRadius: 0
+            borderTopRightRadius: 0
+            borderBottomRightRadius: 0
+            borderBottomLeftRadius: 0
+            borderLeftWidth: 0
+            borderRightWidth: 0
+            borderTopWidth: 0
+            borderBottomWidth: 0
+            backgroundColor: transparent
+            transform: [{translateX: 0},  {translateY: 75}, {rotate: 0deg}]
+            position: absolute
+          children:
+            - Text:
+                style:
+                  fontWeight: bold
+                  textAlign: center
+                  color: black
+                  fontSize: 25
+                index: {index_1}       
+      - View:
+          style:
+            width: 300
+            height: 120
+            borderTopLeftRadius: 15
+            borderTopRightRadius: 15
+            borderBottomRightRadius: 15
+            borderBottomLeftRadius: 15
+            borderLeftWidth: 4
+            borderRightWidth: 4
+            borderTopWidth: 4
+            borderBottomWidth: 4
+            backgroundColor: lightgray
+            transform: [{translateX: 10}, {translateY: 120},  {rotate: 0deg}]
+            position: absolute
+          children:
+            - Button:
+                id: button_2
+                on_touch:
+                  backgroundColor: white
+                style:
+                  width: 40
+                  height: 40
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: azure
+                  transform: [{translateX: 20}, {translateY: 10},  {rotate: 0deg}]
+                  position: absolute
+            - Button:
+                id: button_3
+                on_touch:
+                  backgroundColor: white
+                style:
+                  width: 40
+                  height: 40
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: khaki
+                  transform: [{translateX: 90}, {translateY: 10},  {rotate: 0deg}]
+                  position: absolute
+            - Button:
+                id: button_4
+                on_touch:
+                  backgroundColor: white
+                style:
+                  width: 40
+                  height: 40
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: palegreen
+                  transform: [{translateX: 160}, {translateY: 10},  {rotate: 0deg}]
+                  position: absolute
+            - Button:
+                id: button_5
+                on_touch:
+                  backgroundColor: white
+                style:
+                  width: 40
+                  height: 40
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: mediumturquoise
+                  transform: [{translateX: 230}, {translateY: 10},  {rotate: 0deg}]
+                  position: absolute
+            - Button:
+                id: button_6
+                on_touch:
+                  backgroundColor: white
+                style:
+                  width: 40
+                  height: 40
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: lightpink
+                  transform: [{translateX: 20}, {translateY: 60},  {rotate: 0deg}]
+                  position: absolute
+            - Button:
+                id: button_7
+                on_touch:
+                  backgroundColor: white
+                style:
+                  width: 40
+                  height: 40
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: darksalmon
+                  transform: [{translateX: 90}, {translateY: 60},  {rotate: 0deg}]
+                  position: absolute
+            - Button:
+                id: button_8
+                on_touch:
+                  backgroundColor: white
+                style:
+                  width: 40
+                  height: 40
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: beige
+                  transform: [{translateX: 160}, {translateY: 60},  {rotate: 0deg}]
+                  position: absolute
+            - Button:
+                id: button_9
+                on_touch:
+                  backgroundColor: white
+                style:
+                  width: 40
+                  height: 40
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: darkkhaki
+                  transform: [{translateX: 230}, {translateY: 60},  {rotate: 0deg}]
+                  position: absolute
+      - TextInput:
+          len: 11
+          style:
+            width: 200
+            textAlign: center
+            fontWeight: bold
+            color: black
+            fontSize: 21
+            height: 40
+            borderTopLeftRadius: 10
+            borderTopRightRadius: 10
+            borderBottomRightRadius: 10
+            borderBottomLeftRadius: 10
+            borderLeftWidth: 2
+            borderRightWidth: 2
+            borderTopWidth: 2
+            borderBottomWidth: 2
+            backgroundColor: yellow
+            transform: [{translateX: 60}, {translateY: 320}, {rotate: 0deg}]
+            position: absolute
+          index: {index_3}
+      - Button:
+          id: button_1
+          style:
+            width: 80
+            height: 40
+            borderTopLeftRadius: 10
+            borderTopRightRadius: 10
+            borderBottomRightRadius: 10
+            borderBottomLeftRadius: 10
+            borderLeftWidth: 2
+            borderRightWidth: 2
+            borderTopWidth: 2
+            borderBottomWidth: 2
+            backgroundColor: navajowhite
+            transform: [{translateX: 230}, {translateY: 30}, {rotate: 0deg}]
+            position: absolute
+          on_touch:
+            backgroundColor: pink
+          children:
+            - Text:
+                style:
+                  textAlign: center
+                  fontWeight: bold
+                  color: black
+                  fontSize: 25
+                index: {index_4}
+      - View:
+          style:
+            width: 100%
+            height: 40
+            borderTopLeftRadius: 10
+            borderTopRightRadius: 10
+            borderBottomRightRadius: 10
+            borderBottomLeftRadius: 10
+            borderLeftWidth: 0
+            borderRightWidth: 0
+            borderTopWidth: 0
+            borderBottomWidth: 0
+            backgroundColor: transparent
+            transform: [{translateX: 0}, {translateY: 265}, {rotate: 0deg}]
+            position: absolute
+          children:
+            - Text:
+                style:
+                  textAlign: center
+                  fontWeight: bold
+                  color: black
+                  fontSize: 25
+                index: {index_5}

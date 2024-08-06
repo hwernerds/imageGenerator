@@ -1,0 +1,100 @@
+- View:
+    style:
+      width: 320
+      height: 480
+      backgroundColor: black
+      justifyContent: flex-start
+      flexDirection: column
+    children:
+      - View:
+          style:
+            width: 320
+            height: 480
+            borderTopLeftRadius: 30
+            borderTopRightRadius: 30
+            borderBottomRightRadius: 30
+            borderBottomLeftRadius: 30
+            borderLeftWidth: 3
+            borderRightWidth: 3
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: {BColor}
+            transform: [{translateX: 0},  {rotate: 0deg}]
+      - Button:
+          id: button_1
+          style:
+            width: 215
+            height: 50
+            borderTopLeftRadius: 15
+            borderTopRightRadius: 15
+            borderBottomRightRadius: 15
+            borderBottomLeftRadius: 15
+            borderLeftWidth: 3
+            borderRightWidth: 3
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: peachpuff
+            transform: [{translateX: 52.5}, {translateY: 145},  {rotate: 0deg}]
+            position: absolute
+          on_touch:
+            backgroundColor: pink
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 28
+                  fontWeight: bold
+                  textAlign: center
+                index: {index_1}
+      - Button:
+          id: button_2
+          style:
+            width: 215
+            height: 50
+            borderTopLeftRadius: 15
+            borderTopRightRadius: 15
+            borderBottomRightRadius: 15
+            borderBottomLeftRadius: 15
+            borderLeftWidth: 3
+            borderRightWidth: 3
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: peachpuff
+            transform: [{translateX: 52.5}, {translateY: 300},  {rotate: 0deg}]
+            position: absolute
+          on_touch:
+            backgroundColor: pink
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 28
+                  fontWeight: bold
+                  textAlign: center
+                index: {index_2}
+      - Button:
+          id: button_3
+          style:
+            width: 80
+            height: 40
+            borderTopLeftRadius: 10
+            borderTopRightRadius: 10
+            borderBottomRightRadius: 10
+            borderBottomLeftRadius: 10
+            borderLeftWidth: 2
+            borderRightWidth: 2
+            borderTopWidth: 2
+            borderBottomWidth: 2
+            backgroundColor: navajowhite
+            transform: [{translateX: 230}, {translateY: 40}, {rotate: 0deg}]
+            position: absolute
+          on_touch:
+            backgroundColor: pink
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 22
+                  fontWeight: bold
+                  textAlign: center
+                index: {index_3}

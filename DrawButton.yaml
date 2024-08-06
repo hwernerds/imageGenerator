@@ -1,0 +1,14 @@
+          - Button:
+              id: {id}
+              on_touch:
+                backgroundColor: rgb(158,103,103)
+              style:
+                width: 30
+                height: 30
+                borderTopLeftRadius: 0
+                borderTopRightRadius: 0
+                borderBottomRightRadius: 0
+                borderBottomLeftRadius: 0
+                backgroundColor: {Color}
+                transform: [{translateX: {XValue}},  {translateY: {YValue}}, {rotate: 0deg}]
+                position: absolute

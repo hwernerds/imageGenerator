@@ -1,0 +1,283 @@
+- View:
+    style:
+      width: 320
+      height: 480
+      backgroundColor: black
+      justifyContent: flex-start
+      flexDirection: column
+    children:
+      - View:
+          style:
+            width: 320
+            height: 480
+            borderTopLeftRadius: 30
+            borderTopRightRadius: 30
+            borderBottomRightRadius: 30
+            borderBottomLeftRadius: 30
+            borderLeftWidth: 3
+            borderRightWidth: 3
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: azure
+            transform: [{translateX: 0},  {rotate: 0deg}]
+      - View:
+          style:
+            width: 180
+            height: 30
+            borderTopLeftRadius: 0
+            borderTopRightRadius: 0
+            borderBottomRightRadius: 0
+            borderBottomLeftRadius: 0
+            borderLeftWidth: 0
+            borderRightWidth: 0
+            borderTopWidth: 0
+            borderBottomWidth: 0
+            backgroundColor: transparent
+            transform: [{translateX: 130},  {translateY: 35}, {rotate: 0deg}]
+            position: absolute
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 21
+                index: 0            
+      - View:
+          style:
+            width: 280
+            height: 382
+            borderTopLeftRadius: 5
+            borderTopRightRadius: 5
+            borderBottomRightRadius: 15
+            borderBottomLeftRadius: 15
+            borderLeftWidth: 4
+            borderRightWidth: 4
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: peachpuff
+            transform: [{translateX: 20}, {translateY: 80},  {rotate: 0deg}]
+            position: absolute
+      - View:
+          style:
+            width: 240
+            height: 302
+            borderTopLeftRadius: 5
+            borderTopRightRadius: 5
+            borderBottomRightRadius: 15
+            borderBottomLeftRadius: 15
+            borderLeftWidth: 4
+            borderRightWidth: 4
+            borderTopWidth: 3
+            borderBottomWidth: 3
+            backgroundColor: lightgray
+            transform: [{translateX: 40}, {translateY: 140},  {rotate: 0deg}]
+            position: absolute
+          children:
+            - View:
+                style:
+                  width: 80
+                  height: 80
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: yellow
+                  transform: [{translateX: 25}, {translateY: 30},  {rotate: 0deg}]
+                  position: absolute
+            - View:
+                style:
+                  width: 80
+                  height: 80
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: yellow
+                  transform: [{translateX: 130}, {translateY: 30},  {rotate: 0deg}]
+                  position: absolute
+            - View:
+                style:
+                  width: 80
+                  height: 80
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: yellow
+                  transform: [{translateX: 25}, {translateY: 140},  {rotate: 0deg}]
+                  position: absolute
+            - View:
+                style:
+                  width: 80
+                  height: 80
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 3
+                  backgroundColor: yellow
+                  transform: [{translateX: 130}, {translateY: 140},  {rotate: 0deg}]
+                  position: absolute
+            - View:
+                style:
+                  width: 80
+                  height: 46
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 0
+                  backgroundColor: yellow
+                  transform: [{translateX: 25}, {translateY: 250},  {rotate: 0deg}]
+                  position: absolute
+            - View:
+                style:
+                  width: 80
+                  height: 46
+                  borderTopLeftRadius: 0
+                  borderTopRightRadius: 0
+                  borderBottomRightRadius: 0
+                  borderBottomLeftRadius: 0
+                  borderLeftWidth: 4
+                  borderRightWidth: 4
+                  borderTopWidth: 3
+                  borderBottomWidth: 0
+                  backgroundColor: yellow
+                  transform: [{translateX: 130}, {translateY: 250},  {rotate: 0deg}]
+                  position: absolute
+      - View:
+          style:
+            width: 70
+            height: 30
+            borderTopLeftRadius: 0
+            borderTopRightRadius: 0
+            borderBottomRightRadius: 0
+            borderBottomLeftRadius: 0
+            borderLeftWidth: 2
+            borderRightWidth: 2
+            borderTopWidth: 2
+            borderBottomWidth: 2
+            backgroundColor: lightgray
+            transform: [{translateX: 220},  {translateY: 95}, {rotate: 0deg}]
+            position: absolute
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 21
+                  transform: [{translateX: 8},  {translateY: -2}, {rotate: 0deg}]
+                index: 7
+      - View:
+          style:
+            width: 180
+            height: 30
+            borderTopLeftRadius: 0
+            borderTopRightRadius: 0
+            borderBottomRightRadius: 0
+            borderBottomLeftRadius: 0
+            borderLeftWidth: 2
+            borderRightWidth: 2
+            borderTopWidth: 2
+            borderBottomWidth: 2
+            backgroundColor: lightgray
+            transform: [{translateX: 30},  {translateY: 95}, {rotate: 0deg}]
+            position: absolute
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 21
+                  transform: [{translateX: 25},  {translateY: -3}, {rotate: 0deg}]
+                index: 15
+            - View:
+                style:
+                   width: 20
+                   height: 28
+                   borderTopLeftRadius: 0
+                   borderTopRightRadius: 0
+                   borderBottomRightRadius: 0
+                   borderBottomLeftRadius: 0
+                   borderLeftWidth: 1
+                   borderRightWidth: 1
+                   borderTopWidth: 1
+                   borderBottomWidth: 1
+                   backgroundColor: palegoldenrod
+                   transform: [{translateX: -1},  {translateY: -1}, {rotate: 0deg}]
+                   position: absolute
+      - View:
+          style:
+            width: 30
+            height: 40
+            borderTopLeftRadius: 0
+            borderTopRightRadius: 10
+            borderBottomRightRadius: 10
+            borderBottomLeftRadius: 0
+            borderLeftWidth: 2
+            borderRightWidth: 2
+            borderTopWidth: 2
+            borderBottomWidth: 2
+            backgroundColor: navajowhite
+            transform: [{translateX: 1}, {translateY: 40}, {rotate: 0deg}]
+            position: absolute
+      - View:
+          style:
+            width: 20
+            height: 10
+            borderTopLeftRadius: 3
+            borderTopRightRadius: 3
+            borderBottomRightRadius: 3
+            borderBottomLeftRadius: 3
+            borderLeftWidth: 1
+            borderRightWidth: 1
+            borderTopWidth: 1
+            borderBottomWidth: 0.5
+            backgroundColor: burlywood
+            transform: [{translateX: 5}, {translateY: 45}, {rotate: 0deg}]
+            position: absolute
+      - View:
+          style:
+            width: 20
+            height: 10
+            borderTopLeftRadius: 3
+            borderTopRightRadius: 3
+            borderBottomRightRadius: 3
+            borderBottomLeftRadius: 3
+            borderLeftWidth: 1
+            borderRightWidth: 1
+            borderTopWidth: 0.5
+            borderBottomWidth: 0.5
+            backgroundColor: burlywood
+            transform: [{translateX: 5}, {translateY: 55}, {rotate: 0deg}]
+            position: absolute
+      - View:
+          style:
+            width: 20
+            height: 10
+            borderTopLeftRadius: 3
+            borderTopRightRadius: 3
+            borderBottomRightRadius: 3
+            borderBottomLeftRadius: 3
+            borderLeftWidth: 1
+            borderRightWidth: 1
+            borderTopWidth: 0.5
+            borderBottomWidth: 1
+            backgroundColor: burlywood
+            transform: [{translateX: 5}, {translateY: 65}, {rotate: 0deg}]
+            position: absolute
