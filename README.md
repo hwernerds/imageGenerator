@@ -14,4 +14,4 @@ With this program you are able to create images through drawing them on a square
 ## Potential Errors
 The only potential error that you can encouter is with image data storage, where it won't index properly. While it works properly on some computers, when pushed and compiled on other computers, it would index the images wrong, resulting in the misreading of image information when returning to view images. 
 
-We have all pulled and pushed and are all up to date, but the inconsistancy persists with no clear pathway on how to solve it. In order to manually fix it, you need to go into your actual account txt file in Accounts/ and move the image ids to after the user information line with the date, with a space and a newline inbetween each image.
+We have all pulled and pushed and are all up to date, but the inconsistancy persists with no clear pathway on how to solve it. In order to manually fix it, you need to go into your actual account txt file in Accounts/ and move the image ids to after the user information line with the date, with a space and a newline in between each image.
